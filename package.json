@@ -1,0 +1,35 @@
+{
+  "name": "archiejs-mongo-enhancer",
+  "description": "Makes it easy to include mongodb schemas into a nodejs project",
+  "version": "0.1.0",
+  "author": "Naval Saini <navalnovel@gmail.com>",
+  "contributors": [
+    {
+      "name": "Naval Saini",
+      "email": "navalnovel@gmail.com"
+    }
+  ],
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/archiejs/archiejs-mongo-enhancer.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "archiejs": "^0.1.1",
+    "chai": "^3.3.0",
+    "chai-things": "^0.2.0",
+    "mocha": "^2.3.3",
+    "mongoose": "^4.4.14"
+  },
+  "optionalDependencies": {},
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/flipflopapp/archiejs/blob/master/LICENSE"
+    }
+  ]
+}
