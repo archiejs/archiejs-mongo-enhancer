@@ -17,11 +17,14 @@
   "scripts": {
     "test": "mocha test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "archiejs": "^0.2.0"
+  },
   "devDependencies": {
-    "archiejs": "^0.1.1",
+    "archiejs": "^0.2.0",
     "chai": "^3.3.0",
     "chai-things": "^0.2.0",
+    "es6-promisify": "^4.1.0",
     "mocha": "^2.3.3",
     "mongoose": "^4.4.14"
   },
