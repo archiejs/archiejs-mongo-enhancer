@@ -47,18 +47,12 @@ describe('Mongo Enhancer Testcases:', function(){
             .then(() => mongoEnhancer.setupPlugin.call(mongoEnhancer, configTest))
             .then((_db) => { db = _db; })
             .then(() => {
-
                 // write data
                 var person = new db.Person({
                     name: 'dolly',
                     age: 2
                 });
                 return promisify(person.save, person)();
-            })
-            .then((data) => {
-                expect(data._id).to.exist;
-                data.name.should.equal('dolly');
-                data.age.should.equal(2);
             })
             .then(() => {
                 // read data
