@@ -1,7 +1,7 @@
 {
   "name": "archiejs-mongo-enhancer",
   "description": "Makes it easy to include mongodb schemas into a nodejs project",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "author": "Naval Saini <navalnovel@gmail.com>",
   "contributors": [
     {
@@ -22,11 +22,11 @@
     "parent-require": "^1.0.0"
   },
   "peerDependencies": {
-    "archiejs": "^0.3.0",
+    "archiejs": "^1.0.0",
     "mongoose": "^4.4.14"
   },
   "devDependencies": {
-    "archiejs": "^0.3.0",
+    "archiejs": "^1.0.0",
     "chai": "^3.3.0",
     "chai-things": "^0.2.0",
     "es6-promisify": "^4.1.0",
